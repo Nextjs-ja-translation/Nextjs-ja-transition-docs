@@ -81,14 +81,12 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <Link href="/blog">
-      <a>blog</a>
-    </Link>
+    <Link href="/blog">blog</Link>
   )
 }
 ```
 
-Update any import statements, switch `to` to `href`, and add an `<a>` tag as a child of the element.
+Update any import statements, switch `to` to `href`. For versions prior to Next.js version 13, add an `<a>` tag as a child of the Link element.
 
 ## Data Fetching
 
